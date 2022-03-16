@@ -85,7 +85,7 @@ nav > a:hover {
 nav > a {
     color: var(--cor1);
     padding: 10px;
-    border border-radius: 5px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
