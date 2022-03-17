@@ -108,14 +108,15 @@ main {
 main h1 {
     color: var(--cor4);
     font-family: var(--fonte-android);
-    background-image: linear-gradient(to right, var(--cor1),transparent);
-    text-indent: 8px;
+    font-weight: normal;
+    font-size: 1.8em;
 }
 
 main h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
     font-size: 1.3em;
+    font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1),transparent);
     text-indent: 8px;
 }
@@ -160,8 +161,7 @@ main img.pequena {
 
 div.video {
     background-color: var(--cor5);
-    margin-bottom: 30px;
-    margin: 0px -20px 30px -20px
+    margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 59%;
     position: relative;
